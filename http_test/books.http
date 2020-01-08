@@ -1,0 +1,14 @@
+###
+GET http://localhost:3000/books
+Accept: application/json
+
+###
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+"name": "helen",
+"price": 216
+}
+
+###

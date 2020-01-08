@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6c52622-9b61-4c69-9c2c-0f48d51c0c00" name="Default Changelist" comment="" />
+    <list default="true" id="c6c52622-9b61-4c69-9c2c-0f48d51c0c00" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Request" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1W45p6AMMO6Mq4SUAavAIVVXSLQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,11 +33,58 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vue-demo01" />
   </component>
-  <component name="RunManager" selected="Node.js.www">
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000/books" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/books" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;&quot;name&quot;: &quot;helen&quot;,&#10;&quot;price&quot;: 216&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.daoTest.js">
+    <configuration name="books#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/http_test/books.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="books#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/http_test/books.http" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/app.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="daoTest.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/test/daoTest.js" working-dir="$PROJECT_DIR$/test">
       <method v="2" />
     </configuration>
     <configuration name="www" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/bin/www" working-dir="$PROJECT_DIR$/bin">
@@ -28,6 +93,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.www" />
+        <item itemvalue="Node.js.daoTest.js" />
+        <item itemvalue="HTTP Request.books#1" />
+        <item itemvalue="HTTP Request.books#2" />
         <item itemvalue="Node.js.app.js" />
       </list>
     </recent_temporary>
@@ -55,7 +123,9 @@
       <option name="presentableId" value="Default" />
       <updated>1578396205045</updated>
       <workItem from="1578396206223" duration="8290000" />
-      <workItem from="1578444116124" duration="1856000" />
+      <workItem from="1578444116124" duration="4638000" />
+      <workItem from="1578466497685" duration="17000" />
+      <workItem from="1578482046215" duration="6009000" />
     </task>
     <servers />
   </component>
@@ -63,25 +133,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1578402869012">
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1578487036832">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1578402869012" />
-    <state width="1579" height="228" key="GridCell.Tab.0.bottom" timestamp="1578406772184">
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1578487036832" />
+    <state width="1579" height="240" key="GridCell.Tab.0.bottom" timestamp="1578488060311">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="228" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1578406772184" />
-    <state width="1579" height="228" key="GridCell.Tab.0.center" timestamp="1578406772184">
+    <state width="1579" height="240" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1578488060311" />
+    <state width="1579" height="240" key="GridCell.Tab.0.center" timestamp="1578488060311">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="228" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1578406772184" />
-    <state width="1579" height="228" key="GridCell.Tab.0.left" timestamp="1578406772184">
+    <state width="1579" height="240" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1578488060311" />
+    <state width="1579" height="240" key="GridCell.Tab.0.left" timestamp="1578488060311">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="228" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1578406772184" />
-    <state width="1579" height="228" key="GridCell.Tab.0.right" timestamp="1578406772184">
+    <state width="1579" height="240" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1578488060311" />
+    <state width="1579" height="240" key="GridCell.Tab.0.right" timestamp="1578488060311">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="228" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1578406772184" />
+    <state width="1579" height="240" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1578488060311" />
   </component>
 </project>
